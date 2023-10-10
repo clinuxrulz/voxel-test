@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "wasm": "cd voxel-rust-lib && wasm-pack build --target web",
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
